@@ -1,21 +1,23 @@
 import Image from 'next/image';
 import React from 'react';
+import CompanyProfileCard from './company-profile-card';
 
 const items = ['100%'];
 
 const ExportPercentage = () => {
   return (
-    <div className='bg-primary p-10 flex  gap-10'>
+    <CompanyProfileCard>
       <div className='h-[100px] w-[100px] relative'>
         <Image
           fill
           src={'/images/company-profile/export-percentages.png'}
           alt='Company Profile'
+          className='invert'
         />
       </div>
 
-      <div className='flex-1 text-white '>
-        <h4 className='text-2xl font-medium border-b pb-2'>
+      <div className='flex-1 text-foreground '>
+        <h4 className='text-2xl font-medium border-b pb-2 font-poppins'>
           Export Percentage
         </h4>
 
@@ -25,7 +27,7 @@ const ExportPercentage = () => {
           ))}
         </ul>
       </div>
-    </div>
+    </CompanyProfileCard>
   );
 };
 
