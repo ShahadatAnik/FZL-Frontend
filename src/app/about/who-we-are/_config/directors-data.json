@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Ahmed Farhad Khan",
+    "designation": "Managing Director",
+    "image": "/human-placeholder.jpg"
+  },
+  {
+    "name": "Be Be Ayesha Lubna",
+    "designation": "Finance Director",
+    "image": "/human-placeholder.jpg"
+  },
+  {
+    "name": "Nakib Al Kauser",
+    "designation": "Operations Director",
+    "image": "/human-placeholder.jpg"
+  },
+  {
+    "name": "Sazzad Hossain",
+    "designation": "Executive Director",
+    "image": "/human-placeholder.jpg"
+  },
+
+  {
+    "name": "Ahmed Habib Chowdhury",
+    "designation": "Sales Director",
+    "image": "/human-placeholder.jpg"
+  }
+]

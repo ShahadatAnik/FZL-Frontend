@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import CompanyProfileCard from './company-profile-card';
 
-const items = ['1980'];
+const items = ['1994'];
 
 const YearEstablished = () => {
   return (

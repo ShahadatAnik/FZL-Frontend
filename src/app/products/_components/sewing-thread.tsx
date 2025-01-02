@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/products.json';
+import data from '../_config/products.json';
 import ProductCard from './product-card';
 
 const SewingThread = () => {

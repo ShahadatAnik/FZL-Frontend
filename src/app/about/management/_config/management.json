@@ -1,62 +1,32 @@
 [
   {
-    "name": "John Carter",
-    "designation": "CEO",
-    "image": "https://dummyimage.com/400x400/eee/000&text=John+Carter",
-    "quote": "At our zipper company, we strive to connect the world, one zip at a time. Zippers are more than fasteners; they represent efficiency, precision, and innovation. Our goal is to revolutionize how people think about these small yet impactful components. Every zipper we design is a testament to our commitment to quality and reliability, ensuring our products are seamlessly integrated into everyday life."
+    "name": "Ahmed Farhad Khan",
+    "designation": "Managing Director",
+    "image": "/human-placeholder.jpg",
+    "quote": "At Fortune Zipper Limited, our journey since 1994 has been marked by a steadfast commitment to excellence and innovation. We strive to lead the zipper manufacturing industry in Bangladesh, ensuring that our products meet the highest standards of quality and reliability."
   },
   {
-    "name": "Susan Blake",
-    "designation": "Chief Operating Officer",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Susan+Blake",
-    "quote": "Operations are the heartbeat of any company, and at ours, it’s no different. Managing the intricate details of production and logistics for our zippers is a challenge I embrace wholeheartedly. My team ensures that every zipper shipped embodies our dedication to excellence, and we continuously improve our processes to keep the world moving smoothly."
+    "name": "Be Be Ayesha Lubna",
+    "designation": "Finance Director",
+    "image": "/human-placeholder.jpg",
+    "quote": "Our financial strategies are designed to support sustainable growth and diversification. By maintaining robust financial health, we enable FZL to invest in advanced technologies and expand into new sectors, ensuring long-term success and value for our stakeholders."
   },
   {
-    "name": "Michael Anders",
-    "designation": "Chief Financial Officer",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Michael+Anders",
-    "quote": "Every decision we make is backed by meticulous financial planning and analysis. I believe the key to sustaining growth is balancing innovation with financial prudence. As the CFO, my mission is to secure our company’s future while enabling investments in cutting-edge zipper technologies that keep us ahead of the curve."
+    "name": "Sazzad Hossain",
+    "designation": "Executive Director",
+    "image": "/human-placeholder.jpg",
+    "quote": "We are dedicated to fostering a culture of continuous improvement and operational excellence. Our team's expertise and commitment drive us to deliver superior products, reinforcing our reputation as a trusted partner to top-level fashion houses."
   },
   {
-    "name": "Rebecca Moore",
-    "designation": "Head of Product Design",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Rebecca+Moore",
-    "quote": "Design is where form meets function. Each zipper we create starts with understanding user needs and ends with a product that exceeds expectations. My team constantly pushes boundaries, exploring new materials, designs, and applications. Together, we ensure our zippers are as visually appealing as they are durable and reliable."
+    "name": "Nakib Al Kauser",
+    "designation": "Operations Director",
+    "image": "/human-placeholder.jpg",
+    "quote": "Efficiency and precision are at the core of our operations. By leveraging state-of-the-art machinery and rigorous quality control processes, we ensure that every zipper we produce meets the exacting standards of our clients."
   },
   {
-    "name": "James Porter",
-    "designation": "Head of Sales",
-    "image": "https://dummyimage.com/400x400/eee/000&text=James+Porter",
-    "quote": "Connecting with clients worldwide is more than selling a product; it’s about building relationships. My goal is to showcase the unmatched quality of our zippers while understanding the unique needs of every customer. With a keen focus on collaboration, we strive to provide tailored solutions that drive mutual growth."
-  },
-  {
-    "name": "Emily Hayes",
-    "designation": "Marketing Director",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Emily+Hayes",
-    "quote": "Storytelling is the cornerstone of our marketing strategy. We aim to show the world that zippers are not just utilitarian tools but also symbols of innovation and craftsmanship. Through creative campaigns and strategic outreach, we bring our brand's vision to life, ensuring that our zippers become a recognized hallmark of quality."
-  },
-  {
-    "name": "Daniel Green",
-    "designation": "Head of Research & Development",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Daniel+Green",
-    "quote": "Innovation drives us forward. Our R&D department constantly explores new technologies to redefine zipper performance and usability. We work at the intersection of science and creativity, ensuring our products are not only cutting-edge but also environmentally responsible. It’s about crafting zippers that meet today’s demands while anticipating tomorrow’s challenges."
-  },
-  {
-    "name": "Sophia Clarke",
-    "designation": "Customer Support Manager",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Sophia+Clarke",
-    "quote": "Customer satisfaction is at the heart of everything we do. My team is dedicated to providing seamless support, ensuring every inquiry is met with a solution and every concern with care. We understand the importance of trust, and we work tirelessly to uphold our company’s reputation for reliability and excellence."
-  },
-  {
-    "name": "David Lopez",
-    "designation": "Head of Quality Assurance",
-    "image": "https://dummyimage.com/400x400/eee/000&text=David+Lopez",
-    "quote": "Quality isn’t an act; it’s a habit. In my role, I ensure that every zipper leaving our facility meets the highest standards. Through rigorous testing and constant refinement, we uphold our promise of durability and functionality, delivering products that our clients can rely on time and time again."
-  },
-  {
-    "name": "Laura Bennett",
-    "designation": "Sustainability Lead",
-    "image": "https://dummyimage.com/400x400/eee/000&text=Laura+Bennett",
-    "quote": "Sustainability is not just a buzzword; it’s a responsibility. In my role, I lead initiatives to make our zippers more eco-friendly, from sourcing materials to optimizing production processes. Our mission is to create products that are as kind to the planet as they are efficient, helping to build a greener future."
+    "name": "Ahmed Habib Chowdhury",
+    "designation": "Sales Director",
+    "image": "/human-placeholder.jpg",
+    "quote": "Building lasting relationships with our clients is our top priority. We are committed to understanding their unique needs and providing tailored solutions that not only meet but exceed their expectations, solidifying FZL's position as a leader in the industry."
   }
 ]

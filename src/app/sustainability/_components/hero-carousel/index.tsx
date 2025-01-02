@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 
-import sliders from '../../_const/sliders';
+import sliders from '../../_config/sliders';
 
 const HeroCarousel = () => {
   return (

@@ -7,7 +7,7 @@ const items = ['Exporter', 'Manufacturer'];
 const BusinessType = () => {
   return (
     <CompanyProfileCard>
-      <div className='h-[100px] w-[100px] relative'>
+      <div className='size-16 lg:size-[100px] relative'>
         <Image
           fill
           src={'/images/company-profile/business-type.png'}
@@ -17,10 +17,10 @@ const BusinessType = () => {
       </div>
 
       <div className='flex-1 text-foreground '>
-        <h4 className='text-2xl font-medium border-b pb-2 font-poppins'>
+        <h4 className='text-lg lg:text-2xl font-medium border-b pb-2 font-poppins'>
           Business Type
         </h4>
-        <ul className='mt-4 flex flex-col flex-wrap gap-x-10 gap-y-2'>
+        <ul className='mt-2 lg:mt-4 flex flex-col flex-wrap gap-2 lg:gap-x-10 lg:gap-y-2'>
           {items.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

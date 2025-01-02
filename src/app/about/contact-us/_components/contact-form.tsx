@@ -113,7 +113,7 @@ const ContactForm = () => {
               )}
             />
           </div>
-          <Button className='mt-6 w-full' type='submit'>
+          <Button variant={'accent'} className='mt-6 w-full' type='submit'>
             Submit
           </Button>
 

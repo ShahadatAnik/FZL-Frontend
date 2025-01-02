@@ -1,10 +1,10 @@
 const qualityCertificationsData = [
   {
-    certification: 'ISO 9001:2015',
-    certified_by: 'CQM',
-    certificate_no: 'CN-00221Q25043R4L',
-    business_scope: 'Development and production of zippers',
-    validity: '08.10.2021 – 11.29.2024',
+    certification: 'Lorem',
+    certified_by: 'Lorem',
+    certificate_no: 'Lorem',
+    business_scope: 'Lorem',
+    validity: '00.00.0000 – 00.00.0000',
   },
 ];
 

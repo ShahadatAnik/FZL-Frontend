@@ -22,7 +22,7 @@ const CertificateCard: React.FC<{ data: ICertificate }> = ({ data }) => {
         <Image
           width={500}
           height={500}
-          src={'/images/certificates/1.webp'}
+          src={'/placeholder.svg'}
           alt='Certificate'
         />
       </DialogContent>

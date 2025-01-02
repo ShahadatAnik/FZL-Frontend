@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { trade_knowledge_faq } from '../_const/faq-data';
+import { trade_knowledge_faq } from '../_config/faq-data';
 
 const TradeKnowledge = () => {
   return (
@@ -20,7 +20,7 @@ const TradeKnowledge = () => {
       <Accordion type='single' collapsible className='w-full'>
         {trade_knowledge_faq.map((item, index) => (
           <AccordionItem key={index} value={item.question}>
-            <AccordionTrigger className='text-lg'>
+            <AccordionTrigger className='text-lg text-left'>
               {item.question}
             </AccordionTrigger>
             <AccordionContent className='text-base text-muted-foreground leading-relaxed'>

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import PageTitle from '@/components/page-title';
 import PageContainer from '@/components/page-container';
 
 import Certificates from './_components/certificates';
@@ -12,33 +11,23 @@ import OccupationHealthAndSafety from './_components/certifications/occupation-h
 
 const Page = () => {
   return (
-    <div>
-      <PageTitle title='System & Quality Assurance' />
-
-      <PageContainer>
-        <div className='pb-8 space-y-8'>
-          <p className='text-muted-foreground text-lg '>
-            Equipped with various cutting-edge experimental and inspection
-            devices, we monitor the whole process ranging from raw materials to
-            the finished products, including the examination of the precision of
-            molds & equipment accessories, chemical composition content, heavy
-            metal content, physical properties, crystal structure, color
-            fastness and so forth, all of which make sure that every index
-            conforms with the standard requirements for zippers and goes above
-            the customers’ requirements. We have passed the certifications of
-            ISO9001:2015, ISO14001:2015, ISO45001:2018, Oeko-Tex100, Bluesign®
-            System, etc., and have always been carrying out operations in strict
-            compliance with these systems.
-          </p>
-          <QualityCertification />
-          <ProductCertification />
-          <EnvironmentCertification />
-          <SocialResponsibility />
-          <OccupationHealthAndSafety />
-        </div>
-        <Certificates />
-      </PageContainer>
-    </div>
+    <PageContainer>
+      <div className='pb-8 space-y-8 '>
+        <p className='text-foreground text-lg '>
+          In Bangladesh’s competitive zipper manufacturing industry, ensuring
+          top-tier quality and reliability is crucial to maintaining trust and
+          standing out in global markets. Consistent quality and assurance not
+          only uphold the reputation of manufacturers but also drive long-term
+          partnerships and customer satisfaction.
+        </p>
+        <QualityCertification />
+        <ProductCertification />
+        <EnvironmentCertification />
+        <SocialResponsibility />
+        <OccupationHealthAndSafety />
+      </div>
+      <Certificates />
+    </PageContainer>
   );
 };
 

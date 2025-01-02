@@ -5,12 +5,12 @@ const Content5 = () => {
   return (
     <div className='space-y-6'>
       <ContentTitle
-        title='White-material zipper:'
-        description='The white-material zipper is manufactured without being dyed so its cost is lower.It is often used in products which do not demand dyeing the zipper ,such as a pvc zipper bag for bedding packaging.'
+        title='Title 1'
+        description='Lorem ipsum odor amet, consectetuer adipiscing elit. Mus praesent potenti elementum; neque ad habitant. Dui aliquam nulla himenaeos duis bibendum?'
       />
       <ContentTitle
-        title='Sharp lateral turn:'
-        description='The nylon zipper is recommended for use in turning corners. If a reverse zipper and plastic zipper must be used, the safety factor must be considered. Avoid applying zippers on sharp corner turns.'
+        title='Title 2'
+        description='Lorem ipsum odor amet, consectetuer adipiscing elit. Mus praesent potenti elementum; neque ad habitant. Dui aliquam nulla himenaeos duis bibendum?'
       />
     </div>
   );

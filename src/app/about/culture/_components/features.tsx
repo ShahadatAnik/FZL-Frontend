@@ -1,15 +1,15 @@
 import React from 'react';
-import data from '../_const/features-data.json';
+import data from '../_config/features-data.json';
 import Image from 'next/image';
 
 const Features = () => {
   return (
-    <div className='grid grid-cols-3 gap-10'>
+    <div className='grid grid-cols-3 gap-6 2xl:gap-10'>
       {data.map((feature, index) => {
         return (
           <div
             key={index}
-            className='relative p-10 w-full aspect-square group overflow-hidden'
+            className='relative p-10 w-full min-h-[400px] aspect-square group overflow-hidden'
           >
             <div className='absolute inset-0'>
               <Image
@@ -25,6 +25,7 @@ const Features = () => {
             <div className='absolute inset-0 bg-black/60 group-hover:bg-black/20 transition-all duration-200 ease-in'></div>
             <div className='relative z-20 text-white flex flex-col justify-center '>
               <h3 className='font-poppins text-2xl '>{feature.title}</h3>
+
               <p className='mt-2 text-white text-base'>{feature.description}</p>
             </div>
           </div>

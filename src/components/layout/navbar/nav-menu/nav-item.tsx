@@ -8,7 +8,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
 
-const NavItem: React.FC<{ item: INavLink }> = ({ item }) => {
+const NavItem: React.FC<{ item: INavLink; onClick?: () => void }> = ({
+  item,
+  onClick,
+}) => {
   const pathName = usePathname();
 
   const [open, setOpen] = useState(false);
@@ -43,12 +46,13 @@ const NavItem: React.FC<{ item: INavLink }> = ({ item }) => {
                 <li key={child.href}>
                   {child.href && (
                     <Link
+                      onClick={onClick}
                       className={cn(
                         buttonVariants({
                           variant: 'link',
                           className: cn(
                             'w-full justify-start',
-                            isChildActive && 'text-accent '
+                            isChildActive && 'text-accent font-bold'
                           ),
                         })
                       )}
@@ -69,6 +73,7 @@ const NavItem: React.FC<{ item: INavLink }> = ({ item }) => {
   if (item.href) {
     return (
       <Link
+        onClick={onClick}
         className={cn(
           buttonVariants({
             variant: isActive ? 'accent' : 'link',

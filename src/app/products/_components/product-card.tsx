@@ -17,16 +17,17 @@ import Link from 'next/link';
 
 const ProductCard: React.FC<{ data: IProduct }> = ({ data }) => {
   return (
-    <Card className='w-full bg-white flex flex-col justify-between'>
+    <Card className='w-full max-w-[360px] mx-auto bg-white flex flex-col justify-between'>
       <div>
         <CardHeader className='p-2'>
-          <Image
-            className='rounded-md object-cover'
-            src={data.image}
-            alt='product'
-            width={500}
-            height={500}
-          />
+          <div className='w-full  aspect-square relative'>
+            <Image
+              className='rounded-md object-cover'
+              src={data.image}
+              alt='product'
+              fill
+            />
+          </div>
         </CardHeader>
         <CardContent className=' mt-2 space-y-2'>
           <Link href={`/products/${data.uuid}`} className='hover:underline'>
@@ -41,12 +42,7 @@ const ProductCard: React.FC<{ data: IProduct }> = ({ data }) => {
       </div>
       <CardFooter className='flex justify-center'>
         <Link href={`/products/${data.uuid}`}>
-          <Button
-            variant={'outline'}
-            className='hover:bg-primary hover:text-white'
-          >
-            See Details
-          </Button>
+          <Button variant={'outline'}>See Details</Button>
         </Link>
       </CardFooter>
     </Card>

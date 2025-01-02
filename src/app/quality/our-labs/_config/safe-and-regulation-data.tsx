@@ -8,27 +8,27 @@ import Content6 from '../_components/safety-and-regulation/contents/content-6';
 
 const safetyAndRegulationData: ISafetyAndRegulation[] = [
   {
-    image: '/images/safety-and-regulation/s_04.jpg',
+    image: '/placeholder.svg',
     content: <Content1 />,
   },
   {
-    image: '/images/safety-and-regulation/s_05.jpg',
+    image: '/placeholder.svg',
     content: <Content2 />,
   },
   {
-    image: '/images/safety-and-regulation/s_11.jpg',
+    image: '/placeholder.svg',
     content: <Content3 />,
   },
   {
-    image: '/images/safety-and-regulation/s_12.jpg',
+    image: '/placeholder.svg',
     content: <Content4 />,
   },
   {
-    image: '/images/safety-and-regulation/s_13.jpg',
+    image: '/placeholder.svg',
     content: <Content5 />,
   },
   {
-    image: '/images/safety-and-regulation/s_14.jpg',
+    image: '/placeholder.svg',
     content: <Content6 />,
   },
 ];

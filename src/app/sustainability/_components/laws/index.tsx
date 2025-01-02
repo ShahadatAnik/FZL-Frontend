@@ -1,10 +1,10 @@
-import LawsOfKarma from './_components/laws-of-karma';
+import Slide1 from './_components/slide-1';
 import Stacks from './_components/stacks';
 
 const Laws = () => {
   return (
     <div className='h-screen relative'>
-      <LawsOfKarma />
+      <Slide1 />
       <Stacks />
     </div>
   );

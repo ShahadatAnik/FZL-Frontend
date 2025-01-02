@@ -19,11 +19,11 @@ const Hero = () => {
               </p>
               <p className='text-muted-foreground flex items-center gap-2'>
                 <Mail className='size-5' />
-                admin@fzl.com
+                info@fortunzipperbd.com
               </p>
               <p className='text-muted-foreground flex items-center gap-2'>
                 <Phone />
-                +1 800 123 4567
+                +88-01322915277
               </p>
             </div>
           </div>
@@ -44,10 +44,7 @@ const Hero = () => {
                 </p>
 
                 <p className='text-muted-foreground font-light'>
-                  Ph: +88-02-997744454
-                </p>
-                <p className='text-muted-foreground font-light'>
-                  texbuttons@bd.texfasteners.com
+                  Ph: +88-01322915277
                 </p>
               </div>
 
@@ -56,14 +53,12 @@ const Hero = () => {
                   Fortune Zipper Factory
                 </p>
                 <p className='text-muted-foreground font-light'>
-                  V7JW+5F6, Zipper Factory Road, Savar, Dhaka, Bangladesh
+                  Zipper Factory Road, Auk Para, Ashulia, Savar, Dhaka,
+                  Bangladesh.
                 </p>
 
                 <p className='text-muted-foreground font-light'>
-                  Ph: +88-02-997744454
-                </p>
-                <p className='text-muted-foreground font-light'>
-                  texbuttons@bd.texfasteners.com
+                  Ph: +88-01625938925
                 </p>
               </div>
             </div>
